@@ -17,12 +17,12 @@
 </table>
 
 ## Results
-<table>
-  <tr>
-    <td> <img src = "img/result1.png" width="500"> </td>
-    <td> <img src = "img/result2.png" width="400"> </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="img/result1.png">
+</p>
+<p align="center">
+  <img src="img/result2.png">
+</p>
 
 ## Installation
 The model is built in PyTorch 1.1.0 and tested on Ubuntu 16.04 environment (Python3.7, CUDA9.0, cuDNN7.5).
