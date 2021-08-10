@@ -2,7 +2,7 @@
 
 [Kui Jiang](https://scholar.google.com/citations?user=AbOLE9QAAAAJ&hl), [Zhongyuan Wang](https://dblp.org/pid/84/6394.html), [Peng Yi](https://dblp.org/pid/98/1202.html), [Chen Chen](https://scholar.google.com/citations?user=TuEwcZ0AAAAJ&hl=zh-CN), [Zheng Wang](https://scholar.google.com/citations?user=-WHTbpUAAAAJ&hl=zh-CN), [Xiao Wang](https://dblp.org/pid/49/67.html), [Junjun Jiang](https://scholar.google.com/citations?user=WNH2_rgAAAAJ&hl=zh-CN), and [Chia-Wen Lin](https://scholar.google.com/citations?user=fXN3dl0AAAAJ&hl=zh-CN)
 
-**Paper**: Rain-free and Residue Hand-in-Hand: A Progressive Coupled Network for Real-Time Image Deraining(https://www.researchgate.net/profile/Kui-Jiang-3/publication/351868487_PCNET_PROGRESSIVE_COUPLED_NETWORK_FOR_REAL-TIME_IMAGE_DERAINING/links/60adf917299bf13438e85cd0/PCNET-PROGRESSIVE-COUPLED-NETWORK-FOR-REAL-TIME-IMAGE-DERAINING.pdf)
+**Paper**: [Rain-free and Residue Hand-in-Hand: A Progressive Coupled Network for Real-Time Image Deraining](https://www.researchgate.net/profile/Kui-Jiang-3/publication/351868487_PCNET_PROGRESSIVE_COUPLED_NETWORK_FOR_REAL-TIME_IMAGE_DERAINING/links/60adf917299bf13438e85cd0/PCNET-PROGRESSIVE-COUPLED-NETWORK-FOR-REAL-TIME-IMAGE-DERAINING.pdf)
 
 
 
@@ -56,7 +56,7 @@ Training and Testing codes for deraining are provided in their respective direct
 Experiments are performed for different image processing tasks including, image deraining, image dehazing and low-light image enhancement.
 
 ## Acknowledgement
-Code borrows from MPRNet(https://github.com/swz30/MPRNet) by Syed Waqas Zamir(https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en). Thanks for sharing !
+Code borrows from [MPRNet](https://github.com/swz30/MPRNet) by [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en). Thanks for sharing !
 
 ## Citation
 If you use MPRNet, please consider citing:
