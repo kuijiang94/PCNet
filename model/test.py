@@ -1,7 +1,7 @@
 """
-## Multi-Stage Progressive Image Restoration
-## Syed Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, and Ling Shao
-## https://arxiv.org/abs/2102.02808
+## Rain-free and Residue Hand-in-Hand: A Progressive Coupled Network for Real-Time Image Deraining
+## Kui Jiang, Zhongyuan Wang, Peng Yi, Chen Chen, Zheng Wang, Xiao Wang, Junjun Jiang, and Chia-Wen Lin
+## https://www.researchgate.net/profile/Kui-Jiang-3/publication/351868487_PCNET_PROGRESSIVE_COUPLED_NETWORK_FOR_REAL-TIME_IMAGE_DERAINING/links/60adf917299bf13438e85cd0/PCNET-PROGRESSIVE-COUPLED-NETWORK-FOR-REAL-TIME-IMAGE-DERAINING.pdf
 """
 
 import numpy as np
