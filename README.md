@@ -59,9 +59,9 @@ Experiments are performed for different image processing tasks including, image 
 Code borrows from [MPRNet](https://github.com/swz30/MPRNet) by [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en). Thanks for sharing !
 
 ## Citation
-If you use MPRNet, please consider citing:
+If you use PCNet, please consider citing:
 
-    @inproceedings{jiangpcnet,
+    @article{jiangpcnet,
         title={Rain-free and Residue Hand-in-Hand: A Progressive Coupled Network for Real-Time Image Deraining},
         author={Kui Jiang and Zhongyuan Wang and Peng Yi and Chen Chen and Zheng Wang and Xiao Wang and Junjun Jiang and Chia-Wen Lin},
         journal={IEEE Trans. Image Process.}, 
