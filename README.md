@@ -35,12 +35,6 @@ conda install pytorch=1.1 torchvision=0.3 cudatoolkit=9.0 -c pytorch
 pip install matplotlib scikit-image opencv-python yacs joblib natsort h5py tqdm
 ```
 
-Install warmup scheduler
-
-```
-cd pytorch-gradual-warmup-lr; python setup.py install; cd ..
-```
-
 ## Quick Test
 
 To test the pre-trained deraining model on your own images, run 
