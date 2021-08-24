@@ -60,6 +60,7 @@ If you use PCNet, please consider citing:
         author={Kui Jiang and Zhongyuan Wang and Peng Yi and Chen Chen and Zheng Wang and Xiao Wang and Junjun Jiang and Chia-Wen Lin},
         journal={IEEE Trans. Image Process.}, 
         year={2021}
+        doi={10.1109/TIP.2021.3102504}
     }
 
 ## Contact
