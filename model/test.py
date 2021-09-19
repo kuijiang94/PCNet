@@ -18,7 +18,7 @@ import utils
 from thop import profile
 
 from data_RGB import get_test_data
-from PCNet1 import PCNet#STRN_woALL
+from PCNet import PCNet
 
 from skimage import img_as_ubyte
 from pdb import set_trace as stx
@@ -35,7 +35,7 @@ args = parser.parse_args()
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = '1' #args.gpus
 
-model_restoration = WD2N()#,MSGN,STRN,MPRNet,WD2N
+model_restoration = PCNet()
 
 utils.load_checkpoint(model_restoration,args.weights)
 print("===>Testing using weights: ",args.weights)
