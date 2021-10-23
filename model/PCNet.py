@@ -21,6 +21,23 @@ class Scale(nn.Module):
     def forward(self, input):
         return input * self.scale
 ##########################################################################
+## S2FB
+class S2FB_2(nn.Module):
+    def __init__(self, n_feat, reduction, bias, act):
+        super(S2FB_2, self).__init__()
+        self.DSC = depthwise_separable_conv(n_feat*2, n_feat)
+        #self.CON_FEA = nn.Conv2d(n_feat*2, n_feat, kernel_size=1, bias=bias)
+        self.CA_fea = CALayer(n_feat, reduction, bias=bias)
+        #self.CA_fea = BlancedAttention_CAM_SAM_ADD(n_feat, reduction)
+        #self.CA_fea = CCALayer(n_feat, reduction, bias=bias)
+    def forward(self, x1, x2):
+        FEA_1 = self.DSC(torch.cat((x1,x2), 1))
+        #FEA_2 = self.CON_FEA(torch.cat((x1,x2), 1))
+        #resin = FEA_1 + FEA_2
+        res= self.CA_fea(FEA_1) + x1
+        #res += resin
+        return res#x1 + resin
+##########################################################################
 def conv(in_channels, out_channels, kernel_size, bias=False, stride = 1):
     return nn.Conv2d(
         in_channels, out_channels, kernel_size,
